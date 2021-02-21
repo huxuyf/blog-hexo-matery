@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>huxuyf的个人博客</title>
+  
+  <subtitle>让生活变得更精彩</subtitle>
+  <link href="https://huxuyf.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://huxuyf.github.io/"/>
+  <updated>2021-02-21T11:14:21.738Z</updated>
+  <id>https://huxuyf.github.io/</id>
+  
+  <author>
+    <name>huxuyf</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello</title>
+    <link href="https://huxuyf.github.io/hello/"/>
+    <id>https://huxuyf.github.io/hello/</id>
+    <published>2021-02-21T11:12:41.000Z</published>
+    <updated>2021-02-21T11:14:21.738Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;这是一级标题&quot;&gt;&lt;a href=&quot;#这是一级标题&quot; class=&quot;headerlink&quot; title=&quot;这是一级标题&quot;&gt;&lt;/a&gt;这是一级标题&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://huxuyf.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="测试" scheme="https://huxuyf.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://huxuyf.github.io/hello-world/"/>
+    <id>https://huxuyf.github.io/hello-world/</id>
+    <published>2021-02-20T12:14:38.923Z</published>
+    <updated>2021-02-20T12:14:38.924Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

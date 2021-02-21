@@ -233,6 +233,8 @@ feed:
 
 ![](https://cdn.jsdelivr.net/gh/huxuyf/images/20210220222345.png)
 
+保持默认，没必要开启。
+
 
 
 #### 2.3 首页封面轮播图
@@ -241,9 +243,9 @@ feed:
 
 
 
-#### 2.4 配置首页显示
+#### 2.4 配置首页显示“梦想”语句
 
-保持默认
+我觉得没必要，关闭。
 
 
 
@@ -276,6 +278,8 @@ feed:
 ![](https://cdn.jsdelivr.net/gh/huxuyf/images/20210220223006.png)
 
 将URL修改成自己的即可。
+
+建议取消。
 
 
 
@@ -513,4 +517,41 @@ tags:
 | summary    | 无                        | 文章摘要                         |
 | categories | 无                        | 文章分类，一篇文章只属于一个分类 |
 | tags       | 无                        | 文章标签，一篇文章可以多个标签   |
+
+## 三、运行
+
+### 1、新建文章
+
+```bash
+hexo new hello
+```
+
+
+
+在`D:\Hexo\source\_posts`目录下会生成一个`hello.md`文件
+
+
+
+### 2、生成静态网页
+
+```bash
+hexo g
+hexo s
+```
+
+第一步，g（generate），生成静态页面；第二步，s（server），在本地建立服务可以查看静态网页。
+
+![](https://cdn.jsdelivr.net/gh/huxuyf/images/20210221193130.png)
+
+
+
+### 3、部署到GitHub
+
+```bash
+hexo d
+```
+
+d（deploy），部署页面到GitHub上，具体设置见`_config.yml`的*Deployment*部分。除了可以部署到GitHub上，还可以部署到其他地方。
+
+
 

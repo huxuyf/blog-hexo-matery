@@ -104,7 +104,7 @@ theme: matery   # matery模板
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:huxuyf/huxuyf.github.com.git        # github地址
+  repository: git@github.com:huxuyf/huxuyf.github.io.git       # github地址
   branch: main
   message: 更新博客 {{ now("YYYY-MM-DD HH:mm:ss")}}}
 

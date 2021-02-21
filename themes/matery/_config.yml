@@ -19,9 +19,9 @@ menu:
   #Contact:
   #  url: /contact
   #  icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+  #Friends:
+  #  url: /friends
+  #  icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -42,7 +42,7 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: true
+  enable: false
   year: 2021 # 年份
   month: 02 # 月份
   date: 20 # 日期
@@ -64,10 +64,10 @@ cover:
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
-  enable: true
+  enable: false
   showTitle: true
-  title: 我的梦想
-  text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+  title: 我的格言
+  text: 天生我材必有用 - huxuyf
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -123,7 +123,7 @@ logo: /medias/logo.png
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
-  enable: true
+  enable: false
   name: Github
   icon: fab fa-github-alt
   url: https://github.com/huxuyf/
@@ -132,13 +132,13 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/huxuyf
+  github: https://github.com/huxuyf
   email: huxuyf@139.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
   qq: 45091706
-  weibo: # https://weibo.com/shingu
-  zhihu: # https://www.zhihu.com/people/shingu
+  weibo: https://weibo.com/shingu
+  zhihu: https://www.zhihu.com/people/shingu
   rss: true # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
@@ -169,8 +169,8 @@ reward:
 # minCharNumber: Approve copyright information by copying at least how many characters.
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
-  enable: false
-  minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
+  enable: true
+  minCharNumber: 200 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.
@@ -193,7 +193,7 @@ postInfo:
   wordCount: true # 文章字数统计
   totalCount: false # 站点总文章字数
   min2read: true # 文章阅读时长
-  readCount: false # 文章阅读次数
+  readCount: true # 文章阅读次数
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
@@ -379,8 +379,8 @@ changyan:
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
-  enable: false
-  url: https://github.com/blinkfox/hexo-theme-matery
+  enable: true
+  url: https://github.com/huxuyf/blog-hexo-matery
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -525,7 +525,8 @@ tidio:
 tuxiaochao:
   enable: false
   productId:
-#背景canvas-nest
+
+# 背景canvas-nest
 canvas_nest:
   enable: false
   color: 0,0,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
@@ -536,7 +537,7 @@ canvas_nest:
 
 # 背景静止彩带.
 ribbon:
-  enable: false
+  enable: true
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
@@ -550,7 +551,7 @@ ribbon_dynamic:
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
 sharejs:
   enable: true
-  sites: qq,qzone,wechat,weibo,douban,twitter,facebook,google,linkedin
+  sites: wechat,weibo,douban #,qq,qzone,twitter,facebook,google,linkedin
 
 # addthis文章分享模块.
 addthis:
@@ -560,12 +561,12 @@ addthis:
 # 打字效果副标题.
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
 subtitle:
-  enable: false
-  loop: true # 是否循环
+  enable: true
+  loop: false # 是否循环
   showCursor: false # 是否显示光标
-  startDelay: 300 # 开始延迟
-  typeSpeed: 100 # 打字速度
-  backSpeed: 50 # 删除速度
+  startDelay: 1000 # 开始延迟
+  typeSpeed: 200 # 打字速度
+  backSpeed: 100 # 删除速度
   sub1: 人就活一辈子，好好珍惜
   sub2: Man only one life
 
