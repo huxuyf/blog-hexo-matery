@@ -42,7 +42,7 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: false
+  enable: true
   year: 2021 # 年份
   month: 02 # 月份
   date: 20 # 日期
@@ -123,9 +123,9 @@ logo: /medias/logo.png
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
-  enable: false
+  enable: true
   name: Github
-  icon: fab fa-github-alt
+  icon: fab fa-github
   url: https://github.com/huxuyf/
 
 # The configurations of the second line of home banner

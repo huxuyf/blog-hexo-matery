@@ -15,7 +15,10 @@ timezone: 'Asia/Shanghai'    # 时区
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: https://huxuyf.github.io/       # 网址
 root: /
-permalink: :title/      # 文章命名
+permalink: p/:abbrlink.html      # 文章命名
+abbrlink:
+  alg: crc16  # 算法：crc16(default) and crc32
+  rep: dec    # 进制：dec(default) and hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -106,7 +109,7 @@ deploy:
   type: git
   repository: git@github.com:huxuyf/huxuyf.github.io.git       # github地址
   branch: main
-  message: 更新博客 {{ now("YYYY-MM-DD HH:mm:ss")}}}
+  message: 更新博客 {{ now("YYYY-MM-DD HH:mm:ss")}}
 
 # 搜索
 search:
@@ -114,9 +117,9 @@ search:
   field: post
 
 # 中文链接转拼音	
-permalink_pinyin:
-  enable: true
-  separator: '-' # default: '-'
+# permalink_pinyin:
+#   enable: true
+#   separator: '-' # default: '-'
 
 # 文章字数统计
 wordCount:
